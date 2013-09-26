@@ -1,6 +1,6 @@
 {
   "name": "post-json",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "wrapper for posting json with hyperquest",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   "dependencies": {
     "hyperquest": "0.1.8"
   },
-  "repository" : { 
-    "type" : "git", 
-    "url" : "http://github.com/tphummel/post-json.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tphummel/post-json.git"
   },
   "bugs": "http://github.com/tphummel/post-json/issues"
 }
