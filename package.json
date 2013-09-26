@@ -20,5 +20,10 @@
   },
   "dependencies": {
     "hyperquest": "0.1.8"
-  }
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url" : "http://github.com/tphummel/post-json.git"
+  },
+  "bugs": "http://github.com/tphummel/post-json/issues"
 }
