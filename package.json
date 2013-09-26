@@ -1,0 +1,23 @@
+{
+  "name": "post-json",
+  "version": "0.0.0",
+  "description": "wrapper for posting json with hyperquest",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "hyperquest",
+    "post",
+    "json"
+  ],
+  "author": "David Guttman",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "through": "~2.3.4"
+  },
+  "dependencies": {
+    "hyperquest": "0.1.8"
+  }
+}
