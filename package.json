@@ -9,7 +9,8 @@
   "keywords": [
     "hyperquest",
     "post",
-    "json"
+    "json",
+    "browserify"
   ],
   "author": "David Guttman",
   "license": "BSD-2-Clause",
