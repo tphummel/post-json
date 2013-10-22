@@ -1,14 +1,19 @@
 # post-json
 
+wrapper around hyperquest to POST json
+
+[![Build Status](https://travis-ci.org/tphummel/post-json.png)](https://travis-ci.org/tphummel/post-json)  
+[![NPM](https://nodei.co/npm/post-json.png?downloads=true)](https://nodei.co/npm/post-json/)
+
 ## install
 
     npm install post-json
 
-## run tests
+## test
     
     ./bin/test
 
-## usage
+## example
     
     var postJson = require("post-json")
 
