@@ -9,7 +9,8 @@ module.exports = function(url, data, cb) {
 
   opts = {
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Content-Length': body.length
     }
   };
 
