@@ -8,6 +8,7 @@ describe("post-json tests", function(){
   it("should post json to server", function(done){
 
     var server = http.createServer(function (req, res) {
+      assert.equal(req.method, "POST");
       req.pipe(through(function (buf) {
         
         // echo request back to response
