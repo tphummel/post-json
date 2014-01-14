@@ -19,7 +19,7 @@
     "through": "~2.3.4"
   },
   "dependencies": {
-    "hyperquest": "0.1.8"
+    "hyperquest": "~0.2.0"
   },
   "repository": {
     "type": "git",
