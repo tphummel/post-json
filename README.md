@@ -15,11 +15,11 @@ wrapper for posting json with hyperquest
 
 ## example
     
-    var postJson = require("post-json")
+    var postJson = require("post-json");
 
-    var url = "http://my-post-url.net/path"
-    var body = {my: "test", data: "fun"}
+    var url = "http://my-post-url.net/path";
+    var body = {my: "test", data: "fun"};
     
-    postJson url, body, function (err, result) {
+    postJson(url, body, function (err, result) {
       // do stuff
-    }
+    });
