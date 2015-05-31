@@ -19,7 +19,7 @@ wrapper for posting json with hyperquest
 
     var url = "http://my-post-url.net/path"
     var body = {my: "test", data: "fun"}
-    
-    postJson url, body, function (err, result) {
+
+    postJson(url, body, function (err, result) {
       // do stuff
-    }
+    })
