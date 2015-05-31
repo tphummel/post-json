@@ -1,6 +1,6 @@
 {
   "name": "post-json",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "wrapper for posting json with hyperquest",
   "main": "index.js",
   "scripts": {
