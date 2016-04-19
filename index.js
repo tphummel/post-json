@@ -10,7 +10,7 @@ module.exports = function(url, data, cb) {
   opts = {
     headers: {
       'Content-Type': 'application/json',
-      'Content-Length': body.length
+      'Content-Length': Buffer.byteLength(body, 'utf8')
     }
   };
 
